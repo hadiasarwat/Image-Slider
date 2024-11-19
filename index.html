@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Slider</title>
+                 <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--  Coustom Style Sheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+ 
+    <h1> Image Slider</h1>
+<div class="main-img" >
+<img  id="slider-img" src="img 1.jpg" alt="" width="600" height="300" >
+</div>
+    <!-- Product Slider -->
+    <div class="image-slider" >
+        <div class="Slider">
+            <img src="img 2.jpg" class="img" onclick="showsmallImg(this)">
+            <img src="img 3.jpg" class="img" onclick="showsmallImg(this)">
+            <img src="img 4.jpg" class="img" onclick="showsmallImg(this)">
+            <img src="img 5.jpg" class="img" onclick="showsmallImg(this)">
+            <img src="img 6.jpg" class="img" onclick="showsmallImg(this)">
+            <!-- <img src="img 7.jpg" class="img" onclick="showsmallImg(this)"> -->
+
+        </div>
+   
+    </div>
+
+    <!-- Arrow Buttons -->
+    <div onclick="prev()" class="left-arrow"><i class="fa-solid fa-less-than"></i></div>
+    <div onclick="next()" class="right-arrow"><i class="fa-solid fa-greater-than"></i></div>
+
+    
+
+    
+
+    
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
